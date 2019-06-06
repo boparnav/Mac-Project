@@ -57,6 +57,7 @@ class imgViewController: UIViewController,UIImagePickerControllerDelegate,UINavi
         info[UIImagePickerController.InfoKey.originalImage ] as? UIImage != nil){
         let userSelection = info[UIImagePickerController.InfoKey.editedImage ] as? UIImage
         imgPlaceholder.image = userSelection
+            orgImg.name = userSelection!
          dismiss(animated: true, completion: nil)
     }
         
