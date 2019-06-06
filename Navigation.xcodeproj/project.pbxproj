@@ -14,6 +14,7 @@
 		2CFB15D222A093DE005385ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFB15D022A093DE005385ED /* LaunchScreen.storyboard */; };
 		2CFB15DD22A093DE005385ED /* NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFB15DC22A093DE005385ED /* NavigationTests.swift */; };
 		2CFB15E822A093DE005385ED /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFB15E722A093DE005385ED /* NavigationUITests.swift */; };
+		2CFB15F622A099D5005385ED /* imgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFB15F522A099D5005385ED /* imgViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2CFB15E322A093DE005385ED /* NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFB15E722A093DE005385ED /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
 		2CFB15E922A093DE005385ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFB15F522A099D5005385ED /* imgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				2CFB15DB22A093DE005385ED /* NavigationTests */,
 				2CFB15E622A093DE005385ED /* NavigationUITests */,
 				2CFB15C522A093DD005385ED /* Products */,
+				2CFB15E722A093DE005385ED /* NavigationUITests.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +103,7 @@
 				2CFB15C722A093DD005385ED /* AppDelegate.swift */,
 				2CFB15C922A093DD005385ED /* ViewController.swift */,
 				2CFB15CB22A093DD005385ED /* Main.storyboard */,
+				2CFB15F522A099D5005385ED /* imgViewController.swift */,
 				2CFB15CE22A093DE005385ED /* Assets.xcassets */,
 				2CFB15D022A093DE005385ED /* LaunchScreen.storyboard */,
 				2CFB15D322A093DE005385ED /* Info.plist */,
@@ -119,7 +123,6 @@
 		2CFB15E622A093DE005385ED /* NavigationUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2CFB15E722A093DE005385ED /* NavigationUITests.swift */,
 				2CFB15E922A093DE005385ED /* Info.plist */,
 			);
 			path = NavigationUITests;
@@ -258,6 +261,7 @@
 			files = (
 				2CFB15CA22A093DD005385ED /* ViewController.swift in Sources */,
 				2CFB15C822A093DD005385ED /* AppDelegate.swift in Sources */,
+				2CFB15F622A099D5005385ED /* imgViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
